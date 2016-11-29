@@ -1,0 +1,90 @@
+[ 2016-11-29T10:50:03+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FloginAction.class.php 第 31 行.
+[ 2016-11-29T10:50:03+08:00 ] NOTIC: [8] Undefined index: forward FloginAction.class.php 第 40 行.
+[ 2016-11-29T10:50:03+08:00 ] NOTIC: [8] Undefined index: need_verify FloginAction.class.php 第 93 行.
+[ 2016-11-29T10:50:12+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-29T10:50:12+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-29T10:50:12+08:00 ] NOTIC: [8] Undefined index: ajax FindexAction.class.php 第 26 行.
+[ 2016-11-29T10:50:12+08:00 ] NOTIC: [2048] Declaration of MenuModel::_before_insert() should be compatible with Model::_before_insert(&$data, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-29T10:50:12+08:00 ] NOTIC: [2048] Declaration of MenuModel::_before_update() should be compatible with Model::_before_update(&$data, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-29T10:50:12+08:00 ] NOTIC: [2048] Declaration of MenuModel::_after_select() should be compatible with Model::_after_select(&$resultSet, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-29T10:50:12+08:00 ] NOTIC: [2048] Declaration of MenuModel::_after_find() should be compatible with Model::_after_find(&$result, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.016820s SQL = SHOW COLUMNS FROM fangfa_menu
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.001083s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='1' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.001253s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='4' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.000622s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='5' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.000597s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='6' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.000415s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='11' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.000438s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='13' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.000424s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='7' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.000419s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='8' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] SQL:  RunTime:0.000379s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='18' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-29T10:50:13+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-29T10:50:14+08:00 ] SQL:  RunTime:0.004254s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-29T10:50:14+08:00 ] SQL:  RunTime:0.000464s SQL = SELECT fangfa_user.*,
+				  fangfa_role.role_id AS `role_id`,
+				  fangfa_role.nickname AS `rolenickname`,
+				  fangfa_role.name AS `rolename` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+				 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+				 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) WHERE fangfa_user.user_id='1' LIMIT 1 
+[ 2016-11-29T10:50:15+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-29T10:50:15+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-29T10:50:16+08:00 ] SQL:  RunTime:0.011563s SQL = SHOW COLUMNS FROM fangfa_friendlink_type
+[ 2016-11-29T10:50:16+08:00 ] SQL:  RunTime:0.000756s SQL = SELECT type_id,type_name FROM `fangfa_friendlink_type`
+[ 2016-11-29T10:50:16+08:00 ] NOTIC: [8] Undefined index: type_id FfriendlinkAction.class.php 第 60 行.
+[ 2016-11-29T10:50:16+08:00 ] SQL:  RunTime:0.008171s SQL = SHOW COLUMNS FROM fangfa_friendlink
+[ 2016-11-29T10:50:16+08:00 ] NOTIC: [8] Undefined index: id FfriendlinkAction.class.php 第 85 行.
+[ 2016-11-29T10:50:16+08:00 ] NOTIC: [8] Undefined index: where FfriendlinkAction.class.php 第 88 行.
+[ 2016-11-29T10:50:16+08:00 ] NOTIC: [8] Undefined index: where FfriendlinkAction.class.php 第 97 行.
+[ 2016-11-29T10:50:16+08:00 ] SQL:  RunTime:0.000852s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_friendlink` LIMIT 1 
+[ 2016-11-29T10:50:16+08:00 ] SQL:  RunTime:0.000924s SQL = SELECT * FROM `fangfa_friendlink` ORDER BY `sort` ASC LIMIT 0,20 
+[ 2016-11-29T10:50:16+08:00 ] NOTIC: [8] Undefined index: status %%B1^B19^B19D9EB4%%manage.html.php 第 48 行.
+[ 2016-11-29T10:50:16+08:00 ] NOTIC: [8] Undefined index: type_id %%B1^B19^B19D9EB4%%manage.html.php 第 53 行.
+[ 2016-11-29T10:50:16+08:00 ] NOTIC: [8] Undefined index: field %%B1^B19^B19D9EB4%%manage.html.php 第 59 行.
+[ 2016-11-29T10:50:17+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-29T10:50:17+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-29T10:50:18+08:00 ] SQL:  RunTime:0.003536s SQL = SHOW COLUMNS FROM fangfa_friendlink_type
+[ 2016-11-29T10:50:18+08:00 ] SQL:  RunTime:0.000237s SQL = SELECT type_id,type_name FROM `fangfa_friendlink_type`
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: type_id FfriendlinkAction.class.php 第 60 行.
+[ 2016-11-29T10:50:18+08:00 ] SQL:  RunTime:0.003654s SQL = SHOW COLUMNS FROM fangfa_friendlink
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: id FfriendlinkAction.class.php 第 85 行.
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: where FfriendlinkAction.class.php 第 88 行.
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: where FfriendlinkAction.class.php 第 97 行.
+[ 2016-11-29T10:50:18+08:00 ] SQL:  RunTime:0.000356s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_friendlink` LIMIT 1 
+[ 2016-11-29T10:50:18+08:00 ] SQL:  RunTime:0.000387s SQL = SELECT * FROM `fangfa_friendlink` ORDER BY `sort` ASC LIMIT 0,20 
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: status %%B1^B19^B19D9EB4%%manage.html.php 第 48 行.
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: type_id %%B1^B19^B19D9EB4%%manage.html.php 第 53 行.
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: field %%B1^B19^B19D9EB4%%manage.html.php 第 59 行.
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-29T10:50:18+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-29T10:50:19+08:00 ] SQL:  RunTime:0.004781s SQL = SHOW COLUMNS FROM fangfa_friendlink_type
+[ 2016-11-29T10:50:19+08:00 ] SQL:  RunTime:0.000289s SQL = SELECT type_id,type_name FROM `fangfa_friendlink_type`
+[ 2016-11-29T10:50:19+08:00 ] NOTIC: [8] Undefined index: do FfriendlinkAction.class.php 第 122 行.
+[ 2016-11-29T10:50:19+08:00 ] NOTIC: [8] Undefined index: info FfriendlinkAction.class.php 第 128 行.
+[ 2016-11-29T10:50:19+08:00 ] SQL:  RunTime:0.004044s SQL = SHOW COLUMNS FROM fangfa_friendlink
+[ 2016-11-29T10:50:19+08:00 ] SQL:  RunTime:0.000365s SQL = SELECT * FROM `fangfa_friendlink` WHERE id='1' LIMIT 1 
+[ 2016-11-29T10:50:19+08:00 ] NOTIC: [2] unlink(D:\www\web/data/admin/runtime/templates_c\%%32^326^326594DF%%add.html.php): No such file or directory core.write_file.php 第 44 行.
+[ 2016-11-29T10:50:29+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-29T10:50:29+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-29T10:50:30+08:00 ] SQL:  RunTime:0.006834s SQL = SHOW COLUMNS FROM fangfa_friendlink_type
+[ 2016-11-29T10:50:30+08:00 ] SQL:  RunTime:0.000565s SQL = SELECT type_id,type_name FROM `fangfa_friendlink_type`
+[ 2016-11-29T10:50:30+08:00 ] NOTIC: [8] Undefined index: type_id FfriendlinkAction.class.php 第 60 行.
+[ 2016-11-29T10:50:30+08:00 ] SQL:  RunTime:0.007658s SQL = SHOW COLUMNS FROM fangfa_friendlink
+[ 2016-11-29T10:50:30+08:00 ] NOTIC: [8] Undefined index: id FfriendlinkAction.class.php 第 85 行.
+[ 2016-11-29T10:50:30+08:00 ] NOTIC: [8] Undefined index: where FfriendlinkAction.class.php 第 88 行.
+[ 2016-11-29T10:50:30+08:00 ] NOTIC: [8] Undefined index: where FfriendlinkAction.class.php 第 97 行.
+[ 2016-11-29T10:50:30+08:00 ] SQL:  RunTime:0.000482s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_friendlink` LIMIT 1 
+[ 2016-11-29T10:50:30+08:00 ] SQL:  RunTime:0.000742s SQL = SELECT * FROM `fangfa_friendlink` ORDER BY `sort` ASC LIMIT 0,20 
+[ 2016-11-29T10:50:30+08:00 ] NOTIC: [8] Undefined index: status %%B1^B19^B19D9EB4%%manage.html.php 第 48 行.
+[ 2016-11-29T10:50:30+08:00 ] NOTIC: [8] Undefined index: type_id %%B1^B19^B19D9EB4%%manage.html.php 第 53 行.
+[ 2016-11-29T10:50:30+08:00 ] NOTIC: [8] Undefined index: field %%B1^B19^B19D9EB4%%manage.html.php 第 59 行.

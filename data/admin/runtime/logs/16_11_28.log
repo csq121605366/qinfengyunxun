@@ -1,0 +1,296 @@
+[ 2016-11-28T17:21:12+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FloginAction.class.php 第 31 行.
+[ 2016-11-28T17:21:12+08:00 ] NOTIC: [8] Undefined index: forward FloginAction.class.php 第 40 行.
+[ 2016-11-28T17:21:12+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FloginAction.class.php 第 31 行.
+[ 2016-11-28T17:21:12+08:00 ] NOTIC: [8] Undefined index: forward FloginAction.class.php 第 40 行.
+[ 2016-11-28T17:21:20+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FloginAction.class.php 第 31 行.
+[ 2016-11-28T17:21:20+08:00 ] NOTIC: [8] Undefined index: forward FloginAction.class.php 第 40 行.
+[ 2016-11-28T17:21:28+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:28+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:28+08:00 ] NOTIC: [8] Undefined index: ajax FindexAction.class.php 第 26 行.
+[ 2016-11-28T17:21:28+08:00 ] NOTIC: [2048] Declaration of MenuModel::_before_insert() should be compatible with Model::_before_insert(&$data, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-28T17:21:28+08:00 ] NOTIC: [2048] Declaration of MenuModel::_before_update() should be compatible with Model::_before_update(&$data, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-28T17:21:28+08:00 ] NOTIC: [2048] Declaration of MenuModel::_after_select() should be compatible with Model::_after_select(&$resultSet, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-28T17:21:28+08:00 ] NOTIC: [2048] Declaration of MenuModel::_after_find() should be compatible with Model::_after_find(&$result, $options) MenuModel.class.php 第 14 行.
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.028107s SQL = SHOW COLUMNS FROM fangfa_menu
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000795s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='1' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000771s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='4' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000531s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='5' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000461s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='6' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000543s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='11' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000406s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='13' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000386s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='7' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000406s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='8' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] SQL:  RunTime:0.000491s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='18' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:29+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:30+08:00 ] SQL:  RunTime:0.007985s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:30+08:00 ] SQL:  RunTime:0.000854s SQL = SELECT fangfa_user.*,
+				  fangfa_role.role_id AS `role_id`,
+				  fangfa_role.nickname AS `rolenickname`,
+				  fangfa_role.name AS `rolename` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+				 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+				 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) WHERE fangfa_user.user_id='1' LIMIT 1 
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:33+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:34+08:00 ] SQL:  RunTime:0.009605s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:34+08:00 ] SQL:  RunTime:0.010010s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:34+08:00 ] SQL:  RunTime:0.000801s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [8] Undefined index: ajax FuserAction.class.php 第 111 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:34+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:36+08:00 ] SQL:  RunTime:0.017462s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:36+08:00 ] SQL:  RunTime:0.007030s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:36+08:00 ] SQL:  RunTime:0.000696s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:36+08:00 ] SQL:  RunTime:0.005355s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [8] Undefined index: role_id FuserAction.class.php 第 54 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [8] Undefined index: q FuserAction.class.php 第 57 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [8] Undefined index: order FuserAction.class.php 第 63 行.
+[ 2016-11-28T17:21:36+08:00 ] SQL:  RunTime:0.002253s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) LIMIT 1 
+[ 2016-11-28T17:21:36+08:00 ] SQL:  RunTime:0.000849s SQL = SELECT fangfa_user.*,
+					  fangfa_role.nickname AS `rolenickname`,
+					  fangfa_role.name AS `rolename`,
+					  fangfa_model.name AS `modelname` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) ORDER BY fangfa_user.`user_id` DESC LIMIT 0,20 
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 22 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:36+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:37+08:00 ] SQL:  RunTime:0.004584s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:37+08:00 ] SQL:  RunTime:0.004195s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:37+08:00 ] SQL:  RunTime:0.000367s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:37+08:00 ] SQL:  RunTime:0.004131s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [8] Undefined index: role_id FuserAction.class.php 第 54 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [8] Undefined index: q FuserAction.class.php 第 57 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [8] Undefined index: order FuserAction.class.php 第 63 行.
+[ 2016-11-28T17:21:37+08:00 ] SQL:  RunTime:0.000706s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) LIMIT 1 
+[ 2016-11-28T17:21:37+08:00 ] SQL:  RunTime:0.000985s SQL = SELECT fangfa_user.*,
+					  fangfa_role.nickname AS `rolenickname`,
+					  fangfa_role.name AS `rolename`,
+					  fangfa_model.name AS `modelname` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) ORDER BY fangfa_user.`user_id` DESC LIMIT 0,20 
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 22 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:37+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:38+08:00 ] SQL:  RunTime:0.005915s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:38+08:00 ] SQL:  RunTime:0.004010s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:38+08:00 ] SQL:  RunTime:0.000444s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:38+08:00 ] SQL:  RunTime:0.004122s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [8] Undefined index: role_id FuserAction.class.php 第 54 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [8] Undefined index: q FuserAction.class.php 第 57 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [8] Undefined index: order FuserAction.class.php 第 63 行.
+[ 2016-11-28T17:21:38+08:00 ] SQL:  RunTime:0.000419s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) LIMIT 1 
+[ 2016-11-28T17:21:38+08:00 ] SQL:  RunTime:0.001058s SQL = SELECT fangfa_user.*,
+					  fangfa_role.nickname AS `rolenickname`,
+					  fangfa_role.name AS `rolename`,
+					  fangfa_model.name AS `modelname` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) ORDER BY fangfa_user.`user_id` DESC LIMIT 0,20 
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 22 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:38+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:39+08:00 ] SQL:  RunTime:0.006639s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:39+08:00 ] SQL:  RunTime:0.005131s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:39+08:00 ] SQL:  RunTime:0.000479s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:39+08:00 ] SQL:  RunTime:0.006100s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:39+08:00 ] NOTIC: [8] Undefined index: role_id FuserAction.class.php 第 54 行.
+[ 2016-11-28T17:21:39+08:00 ] NOTIC: [8] Undefined index: q FuserAction.class.php 第 57 行.
+[ 2016-11-28T17:21:39+08:00 ] NOTIC: [8] Undefined index: order FuserAction.class.php 第 63 行.
+[ 2016-11-28T17:21:39+08:00 ] SQL:  RunTime:0.000568s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) LIMIT 1 
+[ 2016-11-28T17:21:39+08:00 ] SQL:  RunTime:0.000793s SQL = SELECT fangfa_user.*,
+					  fangfa_role.nickname AS `rolenickname`,
+					  fangfa_role.name AS `rolename`,
+					  fangfa_model.name AS `modelname` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) ORDER BY fangfa_user.`user_id` DESC LIMIT 0,20 
+[ 2016-11-28T17:21:39+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:39+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:39+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 22 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:51+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.020576s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.008438s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.000703s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: do FuserAction.class.php 第 206 行.
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.009051s SQL = SHOW COLUMNS FROM fangfa_role_user
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.000629s SQL = SELECT * FROM `fangfa_role_user` WHERE `user_id`='6' LIMIT 1 
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.000625s SQL = SELECT * FROM `fangfa_role` WHERE role_id='3' LIMIT 1 
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.001196s SQL = SELECT fangfa_user.*,
+				  fangfa_role.role_id AS `role_id`,
+				  fangfa_role.nickname AS `rolenickname`,
+				  fangfa_role.name AS `rolename`,fangfa_user_person.* FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+				 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+				 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_user_person`
+				 	 		ON (fangfa_user.user_id=fangfa_user_person.user_id) WHERE fangfa_user.user_id='6' LIMIT 1 
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.000386s SQL = SELECT * FROM `fangfa_role_user` WHERE `user_id`='6' LIMIT 1 
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.000345s SQL = SELECT * FROM `fangfa_role` WHERE role_id='3' LIMIT 1 
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::add() should be compatible with Model::add($data = '', $options = Array) ModelFieldModel.class.php 第 283 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_before_insert() should be compatible with Model::_before_insert(&$data, $options) ModelFieldModel.class.php 第 283 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::save() should be compatible with Model::save($data = '', $options = Array) ModelFieldModel.class.php 第 283 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_before_update() should be compatible with Model::_before_update(&$data, $options) ModelFieldModel.class.php 第 283 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::delete() should be compatible with Model::delete($options = Array) ModelFieldModel.class.php 第 283 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_after_select() should be compatible with Model::_after_select(&$resultSet, $options) ModelFieldModel.class.php 第 283 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_after_find() should be compatible with Model::_after_find(&$result, $options) ModelFieldModel.class.php 第 283 行.
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.007631s SQL = SHOW COLUMNS FROM fangfa_model_field
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.001322s SQL = SELECT * FROM `fangfa_model_field` WHERE `modelid`='7' AND `systype`<>'2' AND `status`='1' ORDER BY `sort` ASC
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelModel::add() should be compatible with Model::add($data = '', $options = Array) ModelModel.class.php 第 375 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2048] Declaration of ModelModel::delete() should be compatible with Model::delete($options = Array) ModelModel.class.php 第 375 行.
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.005623s SQL = SHOW COLUMNS FROM fangfa_model
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: value InputField.class.php 第 44 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [2] strpos(): Empty needle ThumbField.class.php 第 70 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-28T17:21:52+08:00 ] SQL:  RunTime:0.000485s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' and `modelid`='7' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:55+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:56+08:00 ] SQL:  RunTime:0.020234s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:56+08:00 ] SQL:  RunTime:0.010400s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:56+08:00 ] SQL:  RunTime:0.000917s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:56+08:00 ] SQL:  RunTime:0.010963s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [8] Undefined index: role_id FuserAction.class.php 第 54 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [8] Undefined index: q FuserAction.class.php 第 57 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [8] Undefined index: order FuserAction.class.php 第 63 行.
+[ 2016-11-28T17:21:56+08:00 ] SQL:  RunTime:0.000888s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) LIMIT 1 
+[ 2016-11-28T17:21:56+08:00 ] SQL:  RunTime:0.000942s SQL = SELECT fangfa_user.*,
+					  fangfa_role.nickname AS `rolenickname`,
+					  fangfa_role.name AS `rolename`,
+					  fangfa_model.name AS `modelname` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+					 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+					 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) LEFT JOIN `fangfa_model`
+					 	 ON (fangfa_model.modelid=fangfa_role.modelid) WHERE ( fangfa_user.isadmin = 0 ) ORDER BY fangfa_user.`user_id` DESC LIMIT 0,20 
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 18 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [8] Undefined index: role_id %%79^797^79792832%%manage.html.php 第 22 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:56+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:57+08:00 ] SQL:  RunTime:0.014743s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:57+08:00 ] SQL:  RunTime:0.009160s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:57+08:00 ] SQL:  RunTime:0.000849s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [8] Undefined index: ajax FuserAction.class.php 第 111 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:21:57+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:21:58+08:00 ] SQL:  RunTime:0.020242s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:21:58+08:00 ] SQL:  RunTime:0.011643s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:21:58+08:00 ] SQL:  RunTime:0.000709s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:21:58+08:00 ] NOTIC: [8] Undefined index: ajax FuserAction.class.php 第 111 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 24 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [2048] Declaration of User::checkLogin() should be compatible with UserModel::checkLogin($data = Array, $isadmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [2048] Declaration of User::register() should be compatible with UserModel::register($data = Array, $role_id = '', $isAdmin = 0) User.class.php 第 14 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [2048] Declaration of User::insert() should be compatible with UserModel::insert($data = Array, $isAdmin = false) User.class.php 第 14 行.
+[ 2016-11-28T17:22:02+08:00 ] NOTIC: [2048] Declaration of User::update() should be compatible with UserModel::update($data, $isAdmin) User.class.php 第 14 行.
+[ 2016-11-28T17:22:03+08:00 ] SQL:  RunTime:0.008350s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-28T17:22:03+08:00 ] SQL:  RunTime:0.006224s SQL = SHOW COLUMNS FROM fangfa_role
+[ 2016-11-28T17:22:03+08:00 ] SQL:  RunTime:0.000569s SQL = SELECT `role_id`,`nickname` FROM `fangfa_role` WHERE `status`='1' and `isadmin`='0' ORDER BY `role_id` ASC 
+[ 2016-11-28T17:22:03+08:00 ] NOTIC: [8] Undefined index: ajax FuserAction.class.php 第 111 行.

@@ -1,0 +1,46 @@
+{{include file="default/Public/header.html"}}
+<form name="search" class="filter" method="POST" action="{{U url='ffriendlink/manage'}}" target="_self">
+<div id="pageTop">
+	<div class="addBtn">
+	  <a href="{{U url='fziyuan/add_ziyuanshuxing'}}">添加资源属性</a>
+    </div>
+</div>
+</form>
+<form id="friendlinkForm" method="post" action="__APP__">
+<div id="pageCo">
+	<div class="listForm">
+		<table cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+				    <th width="40">ID</th>
+				    <th>资源属性名</th>
+				    <th>所属属性</th>
+				    <th>排序</th>
+				    <th width="150">操作</th>
+				</tr>
+			</thead>
+			<tbody> 
+				{{foreach from=$data item=v}}
+				  <tr>
+				    <td width="40">{{$v.sz_id}}</td>
+				    <td><a href="javascript:;">{{$v.zs_name}}</a></td>
+				    <td><a href="javascript:;">{{$v.shuxing_name}}</a></td>
+				    <td><a href="javascript:;">{{$v.sort}}</a></td>
+				    <td width="150">
+				    <a href='{{U url="fziyuan/edit_ziyuanshuxing?id=`$v.sz_id`"}}'>修改</a>
+						|<a href='{{U url="fziyuan/delete_ziyuanshuxing?id=`$v.sz_id`"}}' onclick="return window.confirm('此操作不可恢复，你确定要删除该信息？');">删除</a>
+					</td>
+				  </tr>
+				  {{foreachelse}}
+				  <tr>
+				  	<td colspan="8" align="center"> 暂时没有数据！</td>
+				  </tr>
+				  {{/foreach}}
+			</tbody>
+		</table>	
+	</div>
+</div>
+<input type="hidden" name="m" value="ffriendlink" />
+<input type="hidden" name="a" value="delete" />
+</form>
+{{include file="default/Public/footer.html"}}

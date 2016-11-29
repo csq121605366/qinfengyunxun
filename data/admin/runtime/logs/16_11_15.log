@@ -1,0 +1,174 @@
+[ 2016-11-15T09:15:38+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FloginAction.class.php 第 31 行.
+[ 2016-11-15T09:15:38+08:00 ] NOTIC: [8] Undefined index: forward FloginAction.class.php 第 40 行.
+[ 2016-11-15T09:15:38+08:00 ] NOTIC: [8] Undefined index: need_verify FloginAction.class.php 第 93 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [8] Undefined index: ajax FindexAction.class.php 第 26 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Declaration of MenuModel::_before_insert() should be compatible with that of Model::_before_insert() MenuModel.class.php 第 14 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Declaration of MenuModel::_before_update() should be compatible with that of Model::_before_update() MenuModel.class.php 第 14 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Declaration of MenuModel::_after_select() should be compatible with that of Model::_after_select() MenuModel.class.php 第 14 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Declaration of MenuModel::_after_find() should be compatible with that of Model::_after_find() MenuModel.class.php 第 14 行.
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.041126s SQL = SHOW COLUMNS FROM fangfa_menu
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.001481s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='1' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000206s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='4' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000201s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='5' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000205s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='6' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000158s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='11' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000162s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='13' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000165s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='7' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000163s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='8' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000153s SQL = SELECT `menuid` FROM `fangfa_menu` WHERE `parentid`='18' ORDER BY `sort` ASC,`menuid` ASC
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, null given MenuModel.class.php 第 253 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with that of Model::_after_insert() RelationModel.class.php 第 24 行.
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with that of Model::delete() UserModel.class.php 第 23 行.
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.001259s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-15T09:15:52+08:00 ] SQL:  RunTime:0.000337s SQL = SELECT fangfa_user.*,
+				  fangfa_role.role_id AS `role_id`,
+				  fangfa_role.nickname AS `rolenickname`,
+				  fangfa_role.name AS `rolename` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+				 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+				 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) WHERE fangfa_user.user_id='1' LIMIT 1 
+[ 2016-11-15T09:15:52+08:00 ] NOTIC: [2] is_readable(): open_basedir restriction in effect. File(/www/wdlinux/apache_php-5.3.29/lib/php/plugins/modifier.date.php) is not within the allowed path(s): (/www/web/wcloud:/tmp) core.get_include_path.php 第 34 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with that of Model::_after_insert() RelationModel.class.php 第 24 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of CategoryModel::_after_insert() should be compatible with that of RelationModel::_after_insert() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of CategoryModel::add() should be compatible with that of Model::add() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of CategoryModel::save() should be compatible with that of Model::save() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of CategoryModel::delete() should be compatible with that of Model::delete() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.001372s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.000244s SQL = SELECT * FROM `fangfa_category` WHERE catid='4' LIMIT 1 
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of ModelModel::add() should be compatible with that of Model::add() ModelModel.class.php 第 375 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of ModelModel::delete() should be compatible with that of Model::delete() ModelModel.class.php 第 375 行.
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.001356s SQL = SHOW COLUMNS FROM fangfa_model
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.000242s SQL = SELECT * FROM `fangfa_model` WHERE modelid = 17 LIMIT 1 
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of ContentModel::add() should be compatible with that of Model::add() ContentModel.class.php 第 578 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2048] Declaration of ContentModel::delete() should be compatible with that of Model::delete() ContentModel.class.php 第 578 行.
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.001176s SQL = SHOW COLUMNS FROM fangfa_content
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: q FcontentAction.class.php 第 99 行.
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.021697s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_content` LEFT JOIN fangfa_content_count ON fangfa_content.cid=fangfa_content_count.cid  WHERE ( fangfa_content.catid = '4' ) AND ( fangfa_content.status > '-1' ) LIMIT 1 
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.000357s SQL = SELECT fangfa_content.*,fangfa_content_count.`hits`,fangfa_content_count.`comments`,fangfa_content_count.`comments_checked` FROM `fangfa_content` LEFT JOIN fangfa_content_count ON fangfa_content.cid=fangfa_content_count.cid  WHERE ( fangfa_content.catid = '4' ) AND ( fangfa_content.status > '-1' ) ORDER BY  fangfa_content.`sort` ASC,fangfa_content.`cid` DESC  LIMIT 0,20 
+[ 2016-11-15T09:16:04+08:00 ] SQL:  RunTime:0.000207s SQL = SELECT `catid`,`modelid` FROM `fangfa_category` WHERE `modelid`='17' AND `cattype`='cat'
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2] is_readable(): open_basedir restriction in effect. File(/www/wdlinux/apache_php-5.3.29/lib/php/plugins/modifier.intval.php) is not within the allowed path(s): (/www/web/wcloud:/tmp) core.get_include_path.php 第 34 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [2] is_readable(): open_basedir restriction in effect. File(/www/wdlinux/apache_php-5.3.29/lib/php/plugins/modifier.date.php) is not within the allowed path(s): (/www/web/wcloud:/tmp) core.get_include_path.php 第 34 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 115 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 117 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 119 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 119 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 121 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 122 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 130 行.
+[ 2016-11-15T09:16:04+08:00 ] NOTIC: [8] Undefined index: newsid %%39^393^393E6AA4%%manage.html.php 第 251 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with that of Model::_after_insert() RelationModel.class.php 第 24 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of CategoryModel::_after_insert() should be compatible with that of RelationModel::_after_insert() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of CategoryModel::add() should be compatible with that of Model::add() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of CategoryModel::save() should be compatible with that of Model::save() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of CategoryModel::delete() should be compatible with that of Model::delete() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.001347s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.000221s SQL = SELECT * FROM `fangfa_category` WHERE catid='3' LIMIT 1 
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of ModelModel::add() should be compatible with that of Model::add() ModelModel.class.php 第 375 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of ModelModel::delete() should be compatible with that of Model::delete() ModelModel.class.php 第 375 行.
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.000909s SQL = SHOW COLUMNS FROM fangfa_model
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.000064s SQL = SELECT * FROM `fangfa_model` WHERE modelid = 17 LIMIT 1 
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of ContentModel::add() should be compatible with that of Model::add() ContentModel.class.php 第 578 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2048] Declaration of ContentModel::delete() should be compatible with that of Model::delete() ContentModel.class.php 第 578 行.
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.001038s SQL = SHOW COLUMNS FROM fangfa_content
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: q FcontentAction.class.php 第 99 行.
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.000330s SQL = SELECT COUNT(*) AS tp_count FROM `fangfa_content` LEFT JOIN fangfa_content_count ON fangfa_content.cid=fangfa_content_count.cid  WHERE ( fangfa_content.catid = '3' ) AND ( fangfa_content.status > '-1' ) LIMIT 1 
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.000284s SQL = SELECT fangfa_content.*,fangfa_content_count.`hits`,fangfa_content_count.`comments`,fangfa_content_count.`comments_checked` FROM `fangfa_content` LEFT JOIN fangfa_content_count ON fangfa_content.cid=fangfa_content_count.cid  WHERE ( fangfa_content.catid = '3' ) AND ( fangfa_content.status > '-1' ) ORDER BY  fangfa_content.`sort` ASC,fangfa_content.`cid` DESC  LIMIT 0,20 
+[ 2016-11-15T09:16:07+08:00 ] SQL:  RunTime:0.000062s SQL = SELECT `catid`,`modelid` FROM `fangfa_category` WHERE `modelid`='17' AND `cattype`='cat'
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2] is_readable(): open_basedir restriction in effect. File(/www/wdlinux/apache_php-5.3.29/lib/php/plugins/modifier.intval.php) is not within the allowed path(s): (/www/web/wcloud:/tmp) core.get_include_path.php 第 34 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2] is_readable(): open_basedir restriction in effect. File(/www/wdlinux/apache_php-5.3.29/lib/php/plugins/modifier.date.php) is not within the allowed path(s): (/www/web/wcloud:/tmp) core.get_include_path.php 第 34 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 115 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 117 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 119 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 119 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 121 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 122 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: status %%39^393^393E6AA4%%manage.html.php 第 130 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, string given %%39^393^393E6AA4%%manage.html.php 第 186 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [2] in_array() expects parameter 2 to be array, string given %%39^393^393E6AA4%%manage.html.php 第 189 行.
+[ 2016-11-15T09:16:07+08:00 ] NOTIC: [8] Undefined index: newsid %%39^393^393E6AA4%%manage.html.php 第 251 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 62 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 63 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with that of Model::_after_insert() RelationModel.class.php 第 24 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of CategoryModel::_after_insert() should be compatible with that of RelationModel::_after_insert() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of CategoryModel::add() should be compatible with that of Model::add() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of CategoryModel::save() should be compatible with that of Model::save() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of CategoryModel::delete() should be compatible with that of Model::delete() CategoryModel.class.php 第 15 行.
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.001372s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000105s SQL = SELECT * FROM `fangfa_category` WHERE catid='3' LIMIT 1 
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelModel::add() should be compatible with that of Model::add() ModelModel.class.php 第 375 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelModel::delete() should be compatible with that of Model::delete() ModelModel.class.php 第 375 行.
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000823s SQL = SHOW COLUMNS FROM fangfa_model
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000089s SQL = SELECT * FROM `fangfa_model` WHERE modelid = 17 LIMIT 1 
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: ajax FcontentAction.class.php 第 236 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: do FcontentAction.class.php 第 237 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ContentModel::add() should be compatible with that of Model::add() ContentModel.class.php 第 578 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ContentModel::delete() should be compatible with that of Model::delete() ContentModel.class.php 第 578 行.
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.001240s SQL = SHOW COLUMNS FROM fangfa_content
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000252s SQL = SELECT * FROM `fangfa_content` WHERE cid='12' LIMIT 1 
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000860s SQL = SHOW COLUMNS FROM fangfa_content_ziyuan
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000151s SQL = SELECT * FROM `fangfa_content_ziyuan` WHERE ( `cid` = '12' ) LIMIT 1 
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::add() should be compatible with that of Model::add() ModelFieldModel.class.php 第 283 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_before_insert() should be compatible with that of Model::_before_insert() ModelFieldModel.class.php 第 283 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::save() should be compatible with that of Model::save() ModelFieldModel.class.php 第 283 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_before_update() should be compatible with that of Model::_before_update() ModelFieldModel.class.php 第 283 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::delete() should be compatible with that of Model::delete() ModelFieldModel.class.php 第 283 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_after_select() should be compatible with that of Model::_after_select() ModelFieldModel.class.php 第 283 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2048] Declaration of ModelFieldModel::_after_find() should be compatible with that of Model::_after_find() ModelFieldModel.class.php 第 283 行.
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.001070s SQL = SHOW COLUMNS FROM fangfa_model_field
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000061s SQL = SELECT `fieldid` FROM `fangfa_model_field` WHERE  `status`='1' AND `modelid`='17'
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.001220s SQL = SHOW COLUMNS FROM fangfa_content_tag
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.002689s SQL = SELECT fangfa_tag.name FROM `fangfa_content_tag` LEFT JOIN fangfa_tag ON (fangfa_tag.tagid=fangfa_content_tag.tagid) WHERE ( fangfa_content_tag.keyid = 'c-12' ) ORDER BY fangfa_tag.tagid DESC
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2] Invalid argument supplied for foreach() ContentModel.class.php 第 442 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined variable: value Field.class.php 第 203 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined variable: value Field.class.php 第 201 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined variable: value Field.class.php 第 201 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined variable: value Field.class.php 第 201 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined variable: value Field.class.php 第 201 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined variable: value Field.class.php 第 201 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined variable: value Field.class.php 第 201 行.
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000420s SQL = SELECT * FROM `fangfa_model_field` WHERE `modelid`='17'  AND `systype`<>'2'  AND `status`='1'  ORDER BY  `sort` ASC
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000066s SQL = SELECT `catid`,`modelid` FROM `fangfa_category` WHERE `modelid`='17' AND `cattype`='cat'
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: defaultvalue TagField.class.php 第 73 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: size ModelModel.class.php 第 285 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: attribute ModelModel.class.php 第 277 行.
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000135s SQL = select * from fangfa_shuxing order by sort asc limit 0,5
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000058s SQL = select * from fangfa_shuxing_ziyuan where sid=1 order by sort asc
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000055s SQL = select * from fangfa_shuxing_ziyuan where sid=2 order by sort asc
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000053s SQL = select * from fangfa_shuxing_ziyuan where sid=3 order by sort asc
+[ 2016-11-15T09:16:10+08:00 ] SQL:  RunTime:0.000053s SQL = select * from fangfa_shuxing_ziyuan where sid=5 order by sort asc
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [2] is_readable(): open_basedir restriction in effect. File(/www/wdlinux/apache_php-5.3.29/lib/php/plugins/modifier.in_array.php) is not within the allowed path(s): (/www/web/wcloud:/tmp) core.get_include_path.php 第 34 行.
+[ 2016-11-15T09:16:10+08:00 ] NOTIC: [8] Undefined index: fws_list %%A9^A92^A92D1E2D%%edit.html.php 第 50 行.

@@ -1,0 +1,325 @@
+
+
+.main{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+.banner .swiper-container {
+    width: 100%;
+    height: 482px;
+}
+
+.banner .swiper-slide {
+    background-position: center;
+    background-size:cover;
+}
+
+.lastPro-content .swiper-container {
+    max-width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.lastPro-content .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+
+
+.main h2{
+    color: #262B2E;
+    height: 100px;
+    font-size: 36px;
+    line-height: 100px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align:center;
+    position: relative;
+}
+
+.main h2:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5%;
+    width: 10%;
+    border-top: 1px solid black;
+}
+
+
+.aboutUs-content p{
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+    color: #666;
+}
+
+.aboutUs-column{
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+.aboutUs-column .item{
+    display: inline-block;
+    width: 24%;
+    background:url("../images/index-bg.png")no-repeat center;
+    position: relative;
+    height: 280px;
+    text-align: center;
+}
+
+.aboutUs-column h3{
+    margin-top: 100px;
+    font-size: 40px;
+    color: #262B2E;
+}
+
+/* aboutPt */
+.aboutPt-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.aboutPt-content .item{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin: 20px 0;
+    height: 200px;
+    perspective: 760px;
+    cursor:pointer;
+    transform-style: preserve-3d;
+}
+.aboutPt-content>a:nth-child(even){
+    margin:10px;
+}
+.aboutPt-content .item .font{
+    backface-visibility: hidden;
+    background: url("../images/painter-bg.png") no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform: rotateY(0deg);
+    transition: all .8s ease-out;
+}
+.aboutPt-content .item .back{
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;    
+    height: 100%;
+    z-index: 1;
+    transform: rotateY(-180deg);
+    transition: all .8s ease-out;
+}
+.aboutPt-content .item:hover .font{
+    z-index: 0;
+    transform: rotateY(180deg);
+}
+.aboutPt-content .item:hover .back{
+    z-index: 1;
+    transform: rotateY(0deg);
+}
+.font_left{
+    height: 100%;
+    width: 41.6667%;
+    position: relative;
+    float: left;
+}
+.font_left img{
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 30px auto 10px;
+}
+.painter_name{
+    text-align: center;
+    overflow: hidden;
+}
+.font_left:after{
+   position: absolute;
+   display: block;
+   content: "";
+   top: 10px;
+   width: 1px;
+   height: 180px;
+   right: -1px;
+   background-image: -webkit-linear-gradient(rgba(96,96,96,0), #737373 50%, rgba(96,96,96,0));
+   background-image: -o-linear-gradient(rgba(96,96,96,0), #737373 50%, rgba(96,96,96,0));
+   background-image: linear-gradient(rgba(96,96,96,0), #737373 50%, rgba(96,96,96,0));
+   background-repeat: no-repeat;
+}
+
+.font_right{
+    float: left;
+    width: 58%;
+    overflow: hidden;
+}
+.painter_intro{
+    line-height: 1.6;
+    padding: 30px 10px;
+}
+
+.aboutPt .back img{
+    width: 100%;
+    height: 100%;
+}
+
+.process{
+    height: 200px;
+    background:#eee url(../images/process.png) no-repeat center;
+    background-size: cover;
+}
+
+
+/* 画轴 */
+.scroll{
+    padding-bottom: 100px;
+}
+.scroll-main{
+    position: relative;
+    height: 392px;
+    width: 1200px;
+    background: url("../images/painting1.png") center no-repeat;
+    /*background-size:calc( 100% - 72px) calc( 100% - 108px);*/
+    background-size: content;
+    background-position: 0 0;
+    left: 10px;
+    animation: myScroll 4s linear;
+    animation-play-state: paused;
+}
+.scroll-main:before{
+    content: "";
+    position: absolute;
+    left:-36px;
+    top: -54px;
+    width: 38px;
+    height:500px;
+    background: url("../images/scroll.png") no-repeat;
+    background-position: 0 0;
+    background-size: auto 100%;
+}
+
+.scroll-main:after{
+    content: "";
+    position: absolute;
+    right: -32px;
+    top: -54px;
+    width: 38px;
+    height: 500px;
+    background: url("../images/scroll.png") no-repeat;
+    background-position: 0 0;
+    background-size: auto 100%;
+    animation-name: myScroll-bar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:step-start;
+    animation-play-state: paused;
+}
+.scroll-active,.scroll-active:after {
+    animation-play-state: running!important; 
+}
+
+.scroll-btn{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color:#999; 
+    border-radius: 10px;
+    background: url('../images/fabuxuqiu.png') no-repeat center;
+    background-size: cover;
+}
+
+
+@keyframes myScroll
+{
+    from {
+        width: 74px;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes myScroll-bar
+{
+    0%{
+        background-position:-715px 0;
+    }
+    8.3% {
+        background-position:-649px 0;
+
+    }
+    16.6% {
+        background-position:-585px 0;
+    }
+    25% {
+        background-position:-519px 0;
+    }
+    33% {
+        background-position:-455px 0;
+    }
+    41% {
+        background-position:-390px 0;
+    }
+    50% {
+        background-position:-325px 0;
+    }
+    58% {
+        background-position:-259px 0;
+    }
+    66% {
+        background-position:-194px 0;
+    }
+    75% {
+        background-position:-130px 0;
+    }
+    83% {
+        background-position:-65px 0;
+    }
+    91% {
+        background-position:0 0;
+    }
+    100% {
+        background-position:-715px 0;
+    }
+}
+
+
+#footer{
+    background: url('../images/foot-bg.png')repeat;
+    height: 100px;
+    width: 100%;
+}
+
+.copyright{
+    padding: 20px 0;
+    color: white;
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+}
+

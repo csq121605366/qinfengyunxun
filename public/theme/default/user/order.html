@@ -1,0 +1,127 @@
+{{include file="library/head.html"}}
+
+<!--右侧边栏菜单-->
+
+{{include file="library/nav.html"}}
+
+
+
+<!--内容-->
+<div class="body1">
+
+    <div class="myzy">我的订单</div>
+
+    <div class="zhzx mydd">
+
+        <div class="mydd1">
+            <div>选择订单</div>
+            <ul>
+                <li class="hovedd">订单1 <img src="__PUBLIC__/images/mydd1.png" alt=""></li>
+                <li>订单1 <img src="__PUBLIC__/images/mydd1.png" alt=""></li>
+                <li>订单1 <img src="__PUBLIC__/images/mydd1.png" alt=""></li>
+                <li>订单1 <img src="__PUBLIC__/images/mydd1.png" alt=""></li>
+                <li>订单1 <img src="__PUBLIC__/images/mydd1.png" alt=""></li>
+                <li>订单1 <img src="__PUBLIC__/images/mydd1.png" alt=""></li>
+            </ul>
+
+        </div>
+        <div class="mydd2">
+
+            <div class="mydd3">
+                <ul>
+                    <li class="mydd4"> <img src="__PUBLIC__/images/mydd.png" alt="">  </li>
+
+                    <li class="mydd5">
+                      <h6>订单名</h6>
+                      <p>最新：上色完成，作品完成</p>
+                      <p>--：-------------------</p>
+                      <p>--：-------------------</p>
+                      <p>--：-------------------</p>
+
+                  </li>
+
+                  <li class="mydd6">
+                   <div>
+                       <span>2016.9.6 16:00:00</span>
+                       <img src="__PUBLIC__/images/mydd2.png" alt="">
+                   </div>
+                   <a href="" class="mydd6-1">验收收货</a>
+                   <a href="" class="mydd6-2">意见修改</a>
+               </li>
+
+           </ul>
+       </div>
+
+       <div class="mydd3">
+        <ul>
+            <li class="mydd4"> <img src="__PUBLIC__/images/mydd.png" alt="">  </li>
+
+            <li class="mydd5">
+                <h6>订单名</h6>
+                <p>最新：上色完成，作品完成</p>
+                <p>--：-------------------</p>
+                <p>--：-------------------</p>
+                <p>--：-------------------</p>
+
+            </li>
+
+            <li class="mydd6">
+                <div>
+                    <span>2016.9.6 16:00:00</span>
+                    <img src="__PUBLIC__/images/mydd2.png" alt="">
+                </div>
+                <a href="" class="mydd6-1">验收收货</a>
+                <a href="" class="mydd6-2">意见修改</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+<script>
+    $(function () {
+       $(".mydd1>ul>li").click(function () {
+        for(var i=$(".mydd1>ul>li").length-1;i>-1;i--) {
+            console.log(i);
+            $(".mydd1>ul>li").eq(i).removeClass("hovedd");
+        }
+        $(this).addClass("hovedd");
+    })
+
+       $(".naws_img").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"0px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").hide()
+    })
+       $(".nawclose").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"-380px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").show()
+    })
+   })
+
+
+</script>
+
+</html>

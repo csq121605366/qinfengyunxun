@@ -1,0 +1,231 @@
+{{include file="library/head.html"}}
+
+<!--右侧边栏菜单-->
+
+{{include file="library/nav.html"}}
+
+
+{{include file="library/right.html"}}
+
+<!--内容-->
+<div class="body1">
+
+    <div class="zhzxzy">
+
+        <p class="yh">{{$cat.name}}</p>
+        <div class="yh1">
+            <input type="text" placeholder="请输入关键词" class="yh2" name="q">
+            <img src="__PUBLIC__/images/sshou.png" alt="" class="yh3" id="search">
+        </div>
+        <p class="yh4">热搜词：{{ffset var=companyname}}</p>
+
+
+        <div class="sy5">
+            <div class="sy6">
+                <p class="sy6-1">自我匹配</p>
+                <p class="sy6-2">根据</p>
+                <p class="sy6-2">关键词</p>
+                <p class="sy6-2">匹配</p>
+                <p class="sy6-3">点击您要搜索的关键字如：数量：1-100张，并点击搜索按钮</p>
+                <a href="__ROOT__/Fmatch/index?catid={{$cat.catid}}&p1={{$smarty.get.p1}}&p2={{$smarty.get.p2}}&p3={{$smarty.get.p3}}&p4={{$smarty.get.p4}}">点击搜索</a>
+            </div>
+            <div class="sy7">
+                <ul>
+                    {{foreach from=$shuxing_list name=foo item=shl}}
+                    {{if $smarty.foreach.foo.index==0}}
+                    <li class="one">
+                        <h6>{{$shl.shuxing_name}}</h6>
+                        {{foreach from=$shl.sl item=ss}}
+                        <p zid="{{$ss.id}}" class="{{if $ss.id==$smarty.get.p1}}xuanzhong1{{/if}}">{{$ss.zs_name}}</p>
+                        {{/foreach}}
+                    </li>
+                    {{elseif $smarty.foreach.foo.index==1}}
+                    <li class="two">
+                        <h6>{{$shl.shuxing_name}}</h6>
+                        {{foreach from=$shl.sl item=ss}}
+                        <p zid="{{$ss.id}}" class="{{if $ss.id==$smarty.get.p2}}xuanzhong2{{/if}}">{{$ss.zs_name}}</p>
+                        {{/foreach}}
+                    </li>
+                    {{elseif $smarty.foreach.foo.index==2}}
+                    <li class="three">
+                        <h6>{{$shl.shuxing_name}}</h6>
+                        {{foreach from=$shl.sl item=ss}}
+                        <p zid="{{$ss.id}}" class="{{if $ss.id==$smarty.get.p3}}xuanzhong3{{/if}}">{{$ss.zs_name}}</p>
+                        {{/foreach}}
+                    </li>
+                    {{elseif $smarty.foreach.foo.index==3}}
+                    <li class="four">
+                        <h6>{{$shl.shuxing_name}}</h6>
+                        {{foreach from=$shl.sl item=ss}}
+                        <p zid="{{$ss.id}}" class="{{if $ss.id==$smarty.get.p4}}xuanzhong4{{/if}}">{{$ss.zs_name}}</p>
+                        {{/foreach}}
+                    </li>
+                    {{/if}}
+                    {{/foreach}}
+                    <li class="sy7-1 five">
+                        <h6>暂定</h6>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                        <p>...</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="sy8">
+                <p class="sy8-1">精确资源匹配</p>
+                <a href="" class="sy8-2">点击联系客服</a>
+                <p class="sy8-3">与客服交流</p>
+                <p class="sy8-3">选择想要的服务</p>
+            </div>
+
+        </div>
+
+        <div class="yhconter">
+            {{ffpagelist catid=$cat.catid  order="sort asc,create_time desc" field="many_pic" to=plist}}
+            <!--{{php}}dump($this->_tpl_vars['plist']);{{/php}}-->
+            <ul>
+                {{foreach from=$plist.info item=p}}
+                <li>
+
+                    <ul class="yhconter1">
+                        {{foreach from=$p.many_pic item=pmp}}
+                        <li>
+                            <img src="{{$pmp.image}}" alt="">
+                        </li>
+                        {{/foreach}}
+                    </ul>
+
+                    <p class="yhconter2">{{$p.title}}</p>
+                    <p class="yhconter3">{{$p.description|mb_substr:0:35:'utf-8'}}</p>
+
+                </li>
+                {{/foreach}}
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.3.js"></script>
+
+<script src="__PUBLIC__/js/gooey.min.js"></script>
+
+<script>
+
+    $(function($) {
+        $("#gooey-API").gooeymenu({
+            bgColor: "#6b7a98",
+            contentColor: "white",
+            style: "circle",
+            circle: {
+                radius: 85
+            },
+            margin: "small",
+            size: 70,
+            bounce: true,
+            bounceLength: "small",
+            transitionStep: 100,
+            hover: "#5dbb89",
+            open: function() {
+//                $(this).find(".gooey-menu-item").css("background-color", "#8394B5");
+//                $(this).find(".open-button").css("background-color", "#8394B5");
+                $(".navimenu .burger").show();
+                $(".imgb").hide();
+            },
+            close: function() {
+//                $(this).find(".gooey-menu-item").css("background-color", "#8394B5");
+//                $(this).find(".open-button").css("background-color", "#8394B5");
+                $(".imgb").show();
+                $(".navimenu .burger").hide();
+            }
+        });
+
+    });
+
+
+    $(".nawsj").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"0px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").hide()
+    })
+    $(".nawclose").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"-380px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").show()
+    })
+
+    $(".sy7>ul>li.one>p").click(function(){
+        for(var i=0;i<$(".sy7>ul>li.one>p").length;i++){
+            $(".sy7>ul>li.one>p").eq(i).removeClass("xuanzhong1")
+        }
+        $(this).addClass("xuanzhong1");
+        var zid = $(this).attr('zid');
+        window.location.href = "{{$url}}?p1="+zid+"&p2="+"{{$smarty.get.p2}}"+"&p3="+"{{$smarty.get.p3}}"+"&p4="+"{{$smarty.get.p4}}";
+       // alert(zid);
+    })
+    $(".sy7>ul>li.two>p").click(function(){
+        for(var i=0;i<$(".sy7>ul>li.two>p").length;i++){
+            $(".sy7>ul>li.two>p").eq(i).removeClass("xuanzhong2")
+        }
+        $(this).addClass("xuanzhong2");
+        var zid = $(this).attr('zid');
+        window.location.href = "{{$url}}?p1="+"{{$smarty.get.p1}}"+"&p2="+zid+"&p3="+"{{$smarty.get.p3}}"+"&p4="+"{{$smarty.get.p4}}";
+    })
+    $(".sy7>ul>li.three>p").click(function(){
+        for(var i=0;i<$(".sy7>ul>li.three>p").length;i++){
+            $(".sy7>ul>li.three>p").eq(i).removeClass("xuanzhong3")
+        }
+        $(this).addClass("xuanzhong3");
+        var zid = $(this).attr('zid');
+        window.location.href = "{{$url}}?p1="+"{{$smarty.get.p1}}"+"&p2="+"{{$smarty.get.p2}}"+"&p3="+zid+"&p4="+"{{$smarty.get.p4}}";
+    })
+    $(".sy7>ul>li.four>p").click(function(){
+        for(var i=0;i<$(".sy7>ul>li.four>p").length;i++){
+            $(".sy7>ul>li.four>p").eq(i).removeClass("xuanzhong4")
+        }
+        $(this).addClass("xuanzhong4");
+        var zid = $(this).attr('zid');
+        window.location.href = "{{$url}}?p1="+"{{$smarty.get.p1}}"+"&p2="+"{{$smarty.get.p2}}"+"&p3="+"{{$smarty.get.p3}}"+"&p4="+zid;
+    })
+    $(".sy7>ul>li.five>p").click(function(){
+        for(var i=0;i<$(".sy7>ul>li.five>p").length;i++){
+            $(".sy7>ul>li.five>p").eq(i).removeClass("xuanzhong5")
+        }
+        $(this).addClass("xuanzhong5")
+    });
+
+    //搜索
+    $("#search").click(function(){
+        var keys = $("input[name=q]").val();
+       if(keys){
+           window.location.href = "__ROOT__/Fmatch/index?keyword="+keys;
+       }
+    });
+
+</script>
+</html>

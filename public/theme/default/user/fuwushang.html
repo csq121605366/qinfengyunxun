@@ -1,0 +1,138 @@
+{{include file="library/head.html"}}
+
+<!--右侧边栏菜单-->
+
+{{include file="library/nav.html"}}
+
+
+
+
+<!--内容-->
+<div class="body1">
+
+    <div class="fuwush">{{$fws_info.nickname}}</div>
+    <div class="fuwush1">
+        <div class="fuwush2">
+
+            <div class="fuwush5">
+                 <img src="__PUBLIC__/images/fws2.png" alt="">
+                <a href="" class="dachangjing"></a>
+                <a href="" class="zhanzheng"></a>
+                <a href="" class="heise"></a>
+                <a href="" class="rixi"></a>
+            </div>
+            <div class="fuwush6">
+                <label>作者风格：</label>
+                <p>大场景所占比例：35%</p>
+                <p>日系所占比例：20%</p>
+                <p>黑色所占比例：18%</p>
+                <p>战争所占比例：27%</p>
+            </div>
+
+        </div>
+        <div class="fuwush3">
+            <a href="">与TA对话</a>
+            <img src="__PUBLIC__/uploads/{{$fws_info.head_photo}}" alt="" class="fuwush7">
+            <div class="fuwush8">
+                <p>参与项目：<span>{{$fws_info.canyuxiangmu}}</span></p>
+                <p>完成项目：<span>{{$fws_info.wanchengxiangmu}}</span></p>
+                <p>服务态度：
+                    <img src="__PUBLIC__/images/{{$fws_info.fwtd}}.png"><span>{{$fws_info.fwtd}}</span>
+                </p>
+                <p>工作态度：<img src="__PUBLIC__/images/{{$fws_info.gztd}}.png"><span>{{$fws_info.gztd}}</span></p>
+                <p>工作效率：<img src="__PUBLIC__/images/{{$fws_info.gzxl}}.png"><span>{{$fws_info.gzxl}}</span></p>
+                <p>工作质量：<img src="__PUBLIC__/images/{{$fws_info.gzzl}}.png"><span>{{$fws_info.gzzl}}</span></p>
+                <p>所在地区：<span class="fuwush9">{{$fws_info.diqu}}</span></p>
+                <p>服务领域：<span class="fuwush9">{{$fws_info.fwly}}</span></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="fuwush4">
+        <ul>
+            {{foreach from=$pic_list item=pl}}
+            <li>
+                <div>
+                    <img src="__PUBLIC__/uploads/{{$pl.thumb}}" alt="">
+                    <p class="name">{{$pl.title}}</p>
+                    <p class="conte">{{$pl.description}}</p>
+                </div>
+            </li>
+            {{/foreach}}
+
+
+        </ul>
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.3.js"></script>
+
+<script src="__PUBLIC__/js/gooey.min.js"></script>
+
+<script>
+
+    $(function($) {
+        $("#gooey-API").gooeymenu({
+            bgColor: "#6b7a98",
+            contentColor: "white",
+            style: "circle",
+            circle: {
+                radius: 85
+            },
+            margin: "small",
+            size: 70,
+            bounce: true,
+            bounceLength: "small",
+            transitionStep: 100,
+            hover: "#5dbb89",
+            open: function() {
+//                $(this).find(".gooey-menu-item").css("background-color", "#8394B5");
+//                $(this).find(".open-button").css("background-color", "#8394B5");
+                $(".navimenu .burger").show();
+                $(".imgb").hide();
+            },
+            close: function() {
+//                $(this).find(".gooey-menu-item").css("background-color", "#8394B5");
+//                $(this).find(".open-button").css("background-color", "#8394B5");
+                $(".imgb").show();
+                $(".navimenu .burger").hide();
+            }
+        });
+
+    });
+
+
+    $(".nawsj").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"0px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").hide()
+    })
+    $(".nawclose").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"-380px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").show()
+    })
+
+
+
+</script>
+</html>

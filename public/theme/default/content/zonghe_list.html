@@ -1,0 +1,173 @@
+{{include file="library/head.html"}}
+
+<!--右侧边栏菜单-->
+
+{{include file="library/nav.html"}}
+
+
+{{include file="library/right.html"}}
+
+
+<!--内容-->
+<div class="body1">
+    {{ffcategory catid=1  to=cate1}}
+    <div class="myzy">{{$cate1.name}}</div>
+
+    <div class="zhzxzy">
+        {{ffpagelist catid=$cat.catid  order="sort asc,cid desc"   to=plist}}
+        <!--第一列-->
+            <ul class="zhzxzy1">
+                {{foreach from=$plist.info name=foo item=p}}
+                {{if $smarty.foreach.foo.index<2}}
+                <li><a href="{{$p.url}}">
+                    <img src="{{$p.thumb}}" alt="">
+                    <div>
+                        <p>
+                            {{$p.description|mb_substr:0:60:'utf-8'}}
+                        </p>
+                        <div class="zhzxzy3">
+                            <img src="__PUBLIC__/images/zhzx1.png" alt="" >
+                            <span>{{$p.create_time|date_format:'%Y-%m-%d %H:%M:%S'}}</span>
+                            <img src="__PUBLIC__/images/zhzx2.png" alt="" class="zhzxzy4">
+                            <span>2016</span>
+                        </div>
+                    </div>
+                </a></li>
+                {{/if}}
+                {{/foreach}}
+
+            </ul>
+        <!--第二列-->
+        <ul class="zhzxzy1">
+            {{foreach from=$plist.info name=foo item=p}}
+            {{if $smarty.foreach.foo.index>1&&$smarty.foreach.foo.index<4}}
+            <li><a href="{{$p.url}}">
+                <img src="{{$p.thumb}}" alt="">
+                <div>
+                    <p>
+                        {{$p.description|mb_substr:0:60:'utf-8'}}
+                    </p>
+                    <div class="zhzxzy3">
+                        <img src="__PUBLIC__/images/zhzx1.png" alt="" >
+                        <span>{{$p.create_time|date_format:'%Y-%m-%d %H:%M:%S'}}</span>
+                        <img src="__PUBLIC__/images/zhzx2.png" alt="" class="zhzxzy4">
+                        <span>2016</span>
+                    </div>
+                </div>
+            </a></li>
+            {{/if}}
+            {{/foreach}}
+        </ul>
+
+        <!--第三列-->
+        <ul class="zhzxzy1">
+            {{foreach from=$plist.info name=foo item=p}}
+            {{if $smarty.foreach.foo.index>3&&$smarty.foreach.foo.index<6}}
+            <li><a href="{{$p.url}}">
+                <img src="{{$p.thumb}}" alt="">
+                <div>
+                    <p>
+                        {{$p.description|mb_substr:0:60:'utf-8'}}
+                    </p>
+                    <div class="zhzxzy3">
+                        <img src="__PUBLIC__/images/zhzx1.png" alt="" >
+                        <span>{{$p.create_time|date_format:'%Y-%m-%d %H:%M:%S'}}</span>
+                        <img src="__PUBLIC__/images/zhzx2.png" alt="" class="zhzxzy4">
+                        <span>2016</span>
+                    </div>
+                </div>
+            </a></li>
+            {{/if}}
+            {{/foreach}}
+        </ul>
+        <!--第四列-->
+
+        <ul class="zhzxzy1">
+            {{foreach from=$plist.info name=foo item=p}}
+            {{if $smarty.foreach.foo.index>5&&$smarty.foreach.foo.index<8}}
+            <li><a href="{{$p.url}}">
+                <img src="{{$p.thumb}}" alt="">
+                <div>
+                    <p>
+                        {{$p.description|mb_substr:0:60:'utf-8'}}
+                    </p>
+                    <div class="zhzxzy3">
+                        <img src="__PUBLIC__/images/zhzx1.png" alt="" >
+                        <span>{{$p.create_time|date_format:'%Y-%m-%d %H:%M:%S'}}</span>
+                        <img src="__PUBLIC__/images/zhzx2.png" alt="" class="zhzxzy4">
+                        <span>2016</span>
+                    </div>
+                </div>
+            </a></li>
+            {{/if}}
+            {{/foreach}}
+        </ul>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.3.js"></script>
+
+<script src="__PUBLIC__/js/gooey.min.js"></script>
+
+<script>
+
+    $(function($) {
+        $("#gooey-API").gooeymenu({
+            bgColor: "#6b7a98",
+            contentColor: "white",
+            style: "circle",
+            circle: {
+                radius: 85
+            },
+            margin: "small",
+            size: 70,
+            bounce: true,
+            bounceLength: "small",
+            transitionStep: 100,
+            hover: "#5dbb89",
+            open: function() {
+//                $(this).find(".gooey-menu-item").css("background-color", "#8394B5");
+//                $(this).find(".open-button").css("background-color", "#8394B5");
+                $(".navimenu .burger").show();
+                $(".imgb").hide();
+            },
+            close: function() {
+//                $(this).find(".gooey-menu-item").css("background-color", "#8394B5");
+//                $(this).find(".open-button").css("background-color", "#8394B5");
+                $(".imgb").show();
+                $(".navimenu .burger").hide();
+            }
+        });
+
+    });
+
+
+    $(".nawsj").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"0px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").hide()
+    })
+    $(".nawclose").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"-380px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").show()
+    })
+
+</script>
+</html>

@@ -1,0 +1,80 @@
+{{include file="library/head.html"}}
+
+<!--右侧边栏菜单-->
+
+{{include file="library/nav.html"}}
+
+
+
+<!--内容-->
+<div class="body1">
+
+    <div class="myzy">我的资源</div>
+
+    <div class="zhzx myzy1">
+
+        {{foreach from=$ziyuan_list item=zl}}
+        <div class="myzy2">
+
+            <div class="myzy3">
+                <div><img src="__PUBLIC__/uploads/{{$zl.thumb}}" alt=""></div>
+            </div>
+            <div class="myzy4">
+                <p>
+                    <span class="myzy4-3">{{$zl.name}}</span>
+                    <span class="myzy4-2">({{$zl.str}})</span>
+                </p>
+                <p class="myzy4-1">
+                    <span>链接:</span>
+                    <a target="_blank" href="{{$zl.zy_url}}">{{$zl.zy_url}}</a>
+                </p>
+            </div>
+            <div class="myzy5">
+                {{$zl.create_time|date_format:'%Y.%m.%d %H:%M:%S'}}
+            </div>
+
+        </div>
+        {{/foreach}}
+
+
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+
+
+<script>
+    $(function () {
+        $(".naws_img").click(function(){
+            $(".rcblnaw").css({
+                "position": "fixed",
+                "top":"0px",
+                "right":"0px",
+                "transition": "all 0.5s"
+            })
+            $(".naw").hide()
+        })
+        $(".nawclose").click(function(){
+            $(".rcblnaw").css({
+                "position": "fixed",
+                "top":"0px",
+                "right":"-380px",
+                "transition": "all 0.5s"
+            })
+            $(".naw").show()
+        })
+    })
+
+
+</script>
+</html>

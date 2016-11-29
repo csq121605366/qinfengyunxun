@@ -1,0 +1,293 @@
+[ 2016-11-25T09:32:01+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T09:32:01+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T09:32:01+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T09:32:01+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T09:32:01+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T09:32:02+08:00 ] SQL:  RunTime:0.025000s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T09:32:02+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T09:32:02+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T10:08:36+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T10:08:36+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T10:08:36+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T10:08:36+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T10:08:36+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T10:08:37+08:00 ] SQL:  RunTime:0.010796s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T10:08:37+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T10:08:37+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T10:16:34+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T10:16:34+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T10:16:34+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T10:16:34+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T10:16:34+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T10:16:35+08:00 ] SQL:  RunTime:0.005034s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T10:16:35+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T10:16:35+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:27:52+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:27:52+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:27:52+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:27:52+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:27:52+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:27:53+08:00 ] SQL:  RunTime:0.003293s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:27:53+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:27:53+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:28:42+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:28:42+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:28:42+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:28:42+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:28:42+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:28:43+08:00 ] SQL:  RunTime:0.000710s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:28:43+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:28:43+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:29:08+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:29:08+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:29:08+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:29:08+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:29:08+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:29:09+08:00 ] SQL:  RunTime:0.002064s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:29:09+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:29:09+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:37:53+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:37:53+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:37:53+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:37:53+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:37:53+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:37:54+08:00 ] SQL:  RunTime:0.000513s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:37:54+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:37:54+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:38:22+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:38:22+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:38:22+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:38:22+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:22+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:23+08:00 ] SQL:  RunTime:0.000613s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:38:23+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:38:23+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:38:38+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:38:38+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:38:38+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:38:38+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:38+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:39+08:00 ] SQL:  RunTime:0.000521s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:38:39+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:38:39+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:38:41+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:38:41+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:38:41+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:38:41+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:41+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:42+08:00 ] SQL:  RunTime:0.000487s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:38:42+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:38:42+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:38:47+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:38:47+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:38:47+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:38:47+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:47+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:38:48+08:00 ] SQL:  RunTime:0.000400s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:38:48+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:38:48+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:39:02+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:39:02+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:39:02+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:39:02+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:39:02+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:39:03+08:00 ] SQL:  RunTime:0.000561s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:39:03+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:39:03+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:39:45+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:39:45+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:39:45+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:39:45+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:39:45+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:39:46+08:00 ] SQL:  RunTime:0.001701s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:39:46+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:39:46+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:39:46+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:39:46+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:39:46+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:39:46+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:39:46+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:39:47+08:00 ] SQL:  RunTime:0.002103s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:39:47+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:39:47+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:41:37+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:41:37+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:41:37+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:41:37+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:41:37+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:41:38+08:00 ] SQL:  RunTime:0.002527s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:41:38+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:41:38+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:41:44+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:41:44+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:41:44+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:41:44+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:41:44+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:41:45+08:00 ] SQL:  RunTime:0.000434s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:41:45+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:41:45+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:50:18+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:50:18+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:50:18+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:50:18+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:50:18+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:50:19+08:00 ] SQL:  RunTime:0.009823s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:50:19+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:50:19+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T11:54:50+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T11:54:50+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T11:54:50+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T11:54:50+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:54:50+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T11:54:51+08:00 ] SQL:  RunTime:0.001329s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T11:54:51+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T11:54:51+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T12:37:20+08:00 ] SQL:  RunTime:0.020434s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-25T12:37:20+08:00 ] SQL:  RunTime:0.001097s SQL = SELECT `catid` FROM `fangfa_category` WHERE `catdir`='login' LIMIT 1 
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Constant PHP_FILE already defined Dispatcher.class.php 第 45 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Undefined offset: 2 Dispatcher.class.php 第 251 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Undefined index: need_verify FindexAction.class.php 第 191 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T12:37:20+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T12:37:23+08:00 ] SQL:  RunTime:0.012192s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-25T12:37:23+08:00 ] SQL:  RunTime:0.000717s SQL = SELECT `catid` FROM `fangfa_category` WHERE `catdir`='register' LIMIT 1 
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [8] Constant PHP_FILE already defined Dispatcher.class.php 第 45 行.
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [8] Undefined offset: 2 Dispatcher.class.php 第 251 行.
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T12:37:23+08:00 ] NOTIC: [8] Undefined index: ajax FindexAction.class.php 第 88 行.
+[ 2016-11-25T12:37:24+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T12:37:24+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T14:10:59+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T14:10:59+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T14:10:59+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T14:10:59+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:10:59+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:11:00+08:00 ] SQL:  RunTime:0.003564s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3
+[ 2016-11-25T14:11:00+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T14:11:00+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T14:11:41+08:00 ] SQL:  RunTime:0.022868s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-25T14:11:41+08:00 ] SQL:  RunTime:0.000685s SQL = SELECT `catid` FROM `fangfa_category` WHERE `catdir`='login' LIMIT 1 
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Constant PHP_FILE already defined Dispatcher.class.php 第 45 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Undefined offset: 2 Dispatcher.class.php 第 251 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Undefined index: need_verify FindexAction.class.php 第 191 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T14:11:41+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T14:11:44+08:00 ] SQL:  RunTime:0.011864s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-25T14:11:44+08:00 ] SQL:  RunTime:0.000453s SQL = SELECT `catid` FROM `fangfa_category` WHERE `catdir`='register' LIMIT 1 
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Constant PHP_FILE already defined Dispatcher.class.php 第 45 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Undefined offset: 2 Dispatcher.class.php 第 251 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Undefined index: ajax FindexAction.class.php 第 88 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T14:11:44+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T14:11:52+08:00 ] SQL:  RunTime:0.018029s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-25T14:11:52+08:00 ] SQL:  RunTime:0.000751s SQL = SELECT `catid` FROM `fangfa_category` WHERE `catdir`='login' LIMIT 1 
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Constant PHP_FILE already defined Dispatcher.class.php 第 45 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Undefined offset: 2 Dispatcher.class.php 第 251 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Undefined index: fuserdata FbaseAction.class.php 第 105 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Undefined index: need_verify FindexAction.class.php 第 191 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Undefined index: fuserdata %%8C^8C6^8C64D758%%head.html.php 第 54 行.
+[ 2016-11-25T14:11:52+08:00 ] NOTIC: [8] Undefined index: fuserdata %%C1^C13^C1354030%%nav.html.php 第 8 行.
+[ 2016-11-25T14:12:00+08:00 ] SQL:  RunTime:0.022697s SQL = SHOW COLUMNS FROM fangfa_category
+[ 2016-11-25T14:12:00+08:00 ] SQL:  RunTime:0.000800s SQL = SELECT `catid` FROM `fangfa_category` WHERE `catdir`='user' LIMIT 1 
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [8] Constant PHP_FILE already defined Dispatcher.class.php 第 45 行.
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [8] Undefined offset: 1 Dispatcher.class.php 第 278 行.
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [8] Undefined offset: 3 Dispatcher.class.php 第 287 行.
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [8] Undefined offset: 1 Dispatcher.class.php 第 289 行.
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [2048] Declaration of RelationModel::_after_insert() should be compatible with Model::_after_insert($data, $options) RelationModel.class.php 第 415 行.
+[ 2016-11-25T14:12:00+08:00 ] NOTIC: [2048] Declaration of UserModel::delete() should be compatible with Model::delete($options = Array) UserModel.class.php 第 23 行.
+[ 2016-11-25T14:12:00+08:00 ] SQL:  RunTime:0.011005s SQL = SHOW COLUMNS FROM fangfa_user
+[ 2016-11-25T14:12:00+08:00 ] SQL:  RunTime:0.001113s SQL = SELECT fangfa_user.*,
+				  fangfa_role.role_id AS `role_id`,
+				  fangfa_role.nickname AS `rolenickname`,
+				  fangfa_role.name AS `rolename` FROM `fangfa_user` LEFT JOIN `fangfa_role_user`
+				 		  ON (fangfa_role_user.user_id=fangfa_user.user_id) LEFT JOIN `fangfa_role`
+				 	 ON (fangfa_role_user.role_id=fangfa_role.role_id) WHERE fangfa_user.user_id='3' LIMIT 1 
+[ 2016-11-25T14:37:23+08:00 ] NOTIC: [2048] Declaration of FindexAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') FindexAction.class.php 第 19 行.
+[ 2016-11-25T14:37:23+08:00 ] NOTIC: [2048] Only variables should be assigned by reference FbaseAction.class.php 第 68 行.
+[ 2016-11-25T14:37:23+08:00 ] NOTIC: [8] Undefined index: forward FbaseAction.class.php 第 69 行.
+[ 2016-11-25T14:37:24+08:00 ] SQL:  RunTime:0.002855s SQL = select a.user_id,a.head_photo,a.fwtd,b.nickname from fangfa_user_person a
+				left join fangfa_user b on a.user_id=b.user_id
+				left join fangfa_role_user c on a.user_id=c.user_id
+				where c.role_id=3 order by a.user_id desc limit 0,3

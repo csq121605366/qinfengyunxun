@@ -1,0 +1,174 @@
+{{include file="library/head.html"}}
+
+<!--右侧边栏菜单-->
+
+{{include file="library/nav.html"}}
+
+
+{{include file="library/right.html"}}
+
+
+<!--内容-->
+<div class="body1">
+
+    <div class="yhny">
+        <div><span>{{$search}}的</span> <table>匹配结果</table></div>
+        <a href="javascript:;" id="baocun">点击保存到我的资源</a>
+    </div>
+
+    <div class="yhny1">
+
+        <div class="yhny2">
+            <ul>
+
+
+                {{foreach from=$content_list item=cl}}
+
+                <li>
+                    <ul class="yhny4">
+                        {{foreach from=$cl.many_pic item=clmp}}
+                        <li>
+                            <img src="__PUBLIC__/uploads/{{$clmp.1}}" alt="">
+                        </li>
+                        {{/foreach}}
+                    </ul>
+
+                    <div class="yhny5">
+                        <div class="yhny6">
+                            <label>{{$cl.title}}</label>
+                            <p>{{$cl.description|mb_substr:0:35:'utf-8'}}.</p>
+                        </div>
+                        <div class="yhny7">
+                            <img src="__PUBLIC__/images/yhny.png" alt="">
+                        </div>
+                    </div>
+
+                </li>
+            {{/foreach}}
+
+            </ul>
+
+
+        </div>
+
+        <div class="yhny3">
+            <p class="sy8-1">精确资源匹配</p>
+            <a href="" class="sy8-2">点击联系客服</a>
+            <p class="sy8-3">与客服交流</p>
+            <p class="sy8-3">选择想要的服务</p>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+<!--点击图片出现大图片-->
+<div class="maxtp">
+       <div>
+           <p class="group"></p>
+           <p class="name">图片名称</p>
+           <div class="close"><img src="__PUBLIC__/images/cha.png" alt=""></div>
+       </div>
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.3.js"></script>
+
+<script src="__PUBLIC__/js/gooey.min.js"></script>
+
+<script>
+
+    $(function($) {
+        $("#gooey-API").gooeymenu({
+            bgColor: "#6b7a98",
+            contentColor: "white",
+            style: "circle",
+            circle: {
+                radius: 85
+            },
+            margin: "small",
+            size: 70,
+            bounce: true,
+            bounceLength: "small",
+            transitionStep: 100,
+            hover: "#5dbb89",
+            open: function() {
+                $(".navimenu .burger").show();
+                $(".imgb").hide();
+            },
+            close: function() {
+                $(".imgb").show();
+                $(".navimenu .burger").hide();
+            }
+        });
+
+    });
+
+
+    $(".nawsj").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"0px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").hide()
+    })
+    $(".nawclose").click(function(){
+        $(".rcblnaw").css({
+            "position": "fixed",
+            "top":"0px",
+            "right":"-380px",
+            "transition": "all 0.5s"
+        })
+        $(".naw").show()
+    })
+
+    $(".maxtp>div>div.close").click(function(){
+        $(".maxtp").hide(600)
+    })
+
+
+    $(".yhny4>li>img").click(function(){
+        var img = $(this).attr('src');
+        $(".maxtp>div>p.group").html("<img src=" + img +">")
+        $(".maxtp").show(600);
+    })
+
+$("#baocun").click(function(){
+    var user_id = "{{$smarty.session.fuserdata.user_id}}";
+    if(!user_id){
+        alert("请先登录！");
+        window.location.href = "__ROOT__/login";
+        return false;
+    }
+
+    var ziyuan = new Array();
+    "{{foreach from=$content_list item=cl}}"
+    var tt = "{{$cl.cid}}";
+    ziyuan.push(tt);
+    "{{/foreach}}"
+    if(ziyuan){
+        $.ajax({
+            type: "POST",
+            url: "__ROOT__/Fuser/baocunziyuan/",
+            data: "ziyuan="+ziyuan,
+            success: function(data){
+                if(data==1){
+                    alert("保存成功！");
+                    window.location.href = "__ROOT__/Fuser/myzy";
+                }
+            }
+        })
+    }
+});
+</script>
+</html>
